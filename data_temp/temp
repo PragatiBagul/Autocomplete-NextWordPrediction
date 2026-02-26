@@ -1,0 +1,14 @@
+# **1. DBSCAN on Wholesale Customers Dataset — Unsupervised Segmentation Engine**
+
+- Built a complete **unsupervised-learning pipeline** to segment wholesale buyers based on spending patterns across Grocery, Milk, Detergents, Frozen, and Delicassen categories.
+- Conducted **skewness analysis,,,,,,,,,,,,,, log-transformations, and outlier profiling**, enabling more stable clustering behavior.
+- Implemented **feature scaling, PCA-based exploratory analysis, and k-distance graphs** to identify meaningful DBSCAN parameters `eps` and `min_samples`.
+- Trained DBSCAN and evaluated cluster cohesion                         using **density-based cluster diagnostics, silhouette adaptations, and noise quantification**.
+
+
+
+
+- Designed a **cluster profiling module** summarizing average spend, variance patterns, and product-category dominance.
+- Built **interactive PCA visual dashboards** to visualize cluster boundaries and noise points.
+- **Deployment:** Wrapped ???????????????????the clustering workflow into a **FastAPI microservice**, enabling real-time segmentation for new customers.
+- **Outcome:** Delivered a high-value **non-parametric clustering solution** outperforming KMeans for irregular wholesale spending, enabling targeted B2B marketing strategies.
